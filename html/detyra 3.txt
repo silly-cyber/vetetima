@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html> 
+		<head>
+	<title>detyra 3 me div<title>
+		</head>
+		<body>
+<div style="border 1px solid black; width:1200px; height:1500px>
+<div style="border 1px solid black; width:1200px; height:200px>
+<div style="border 1px solid black; width:240px; height:100px>
+<div style="border 1px solid black; width:240px; height:100px; float:left>
+<div style="border 1px solid black; width:240px; height:100px>
+</div>
+		</body>
+</html>

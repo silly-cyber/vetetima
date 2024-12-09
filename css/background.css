@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(128, 154, 112);
+    background-image: url("forest-forest12.jpg");
+    background-repeat: no-repeat;
+    /* background-position: 200px 200px;*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+#div1{
+    border: 1px solid black;
+    width:400px ;
+    height:400px ;
+    background-image: url("forest-forest12.jpg") ;
+}

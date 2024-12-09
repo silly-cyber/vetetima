@@ -1,0 +1,46 @@
+/*selektor {deklarimi} */
+
+/* universal selector*/
+h1{
+  background-color: rgb(198, 184, 205);
+  color: rgb(51, 12, 88);
+}
+
+/* Tag selector */
+h1{
+    background-color: rgb(75, 7, 104);
+    
+  }
+
+  /* Id selector */
+#p1{
+    background-color: rgb(71, 28, 90);
+    font-size: 32px;
+  }
+
+    /* class  selector */
+.para{
+    background-color: rgb(126, 75, 148);
+    font-size: 25px;
+  }
+
+  /* descending selector*/
+  div p{
+    background-color: rgb(37, 12, 47);
+    color: rgb(63, 34, 91);
+    font-size: 25px;
+  }
+
+   /* child selector*/
+   div>h1{
+    background-color: rgb(56, 41, 61);
+    color: rgb(170, 130, 208);
+    font-size: 25px;
+  }
+
+
+  /* Group selector*/
+  h1,h2,button{
+    background-color: blueviolet;
+    color: rgb(83, 20, 73);
+  }
