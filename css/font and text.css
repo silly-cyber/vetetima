@@ -59,7 +59,7 @@ direction: rtl;
 
 }
  #p10 {
-    letters-spacing: 5px;
+    letter-spacing: 5px;
      word-spacing: 15px;
     /* white-space: pre;*/
  }
