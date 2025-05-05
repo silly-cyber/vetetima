@@ -1,0 +1,54 @@
+#input1:focus {
+    background-color: blueviolet;
+    font-size: 25px;
+}
+
+#input2:disabled {
+    background: rgb(204, 174, 231);
+}
+
+#input2:enabled {
+    background: rgb(189, 43, 226);
+}
+.input3:checked {
+    height: 30px;
+    width: 30px;
+}
+p:first-of-type {
+    background-color: rgb(220, 43, 226);
+}
+p:last-of-type {
+    background-color: rgb(233, 157, 233);
+}
+p:first-child {
+    background: rgb(45, 14, 49)
+}
+
+p:last-child {
+    background: rgb(135, 39, 148)
+}
+
+p:empty {
+width: 100px;
+height: 20px;
+background: #5c345c;
+}
+p {
+    color: black;
+}
+:not(p){
+/* per te funksionuar kjo klase duhet gjithashtu edhe selectorit te caktuar ti jepet edhe nje veti te caktuar*/
+background-color: blueviolet;
+}
+
+p {
+    background-color: rgb(76, 43, 226);
+}
+:root {
+    background: #e03ee0;
+}
+
+:target {
+    border: 20px solid magenta;
+background-color: #744a85;
+}

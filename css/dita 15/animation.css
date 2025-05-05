@@ -1,0 +1,175 @@
+#div1 {
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    animation-name: div1;
+    animation-duration: 4s;
+}
+
+@keyframes div1 {
+   from {
+background: blueviolet;
+    }
+    to {
+        background: blue;
+    }
+}
+#div2 {
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    animation-name: div2;
+    animation-duration: 4s;
+}
+@keyframes div2 {
+    0% {
+    background-color: red;
+    }
+    33% {
+        background-color: yellow;
+        }
+     66% {
+            background-color: rgb(37, 70, 255);
+         }
+  100% {
+  background-color: rebeccapurple;
+      }
+
+}
+#div3 {
+    width: 100px;
+    height: 100px;
+    background: rgb(68, 24, 109);
+    animation-name: div3;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    position: relative;
+}
+@keyframes div3{
+    0% {
+        background-color: red;
+        top: 0px;
+        left: 0px;
+        }
+        25% {
+            background-color: rgb(255, 145, 0);
+            top: 0px;
+            left: 200px;
+            }
+ 50% {
+     background-color: rgb(251, 255, 0);
+      top: 200px;
+     left: 200px;
+     }
+75% {
+ background-color: rgb(0, 255, 21);
+  top: 200px;
+  left: 0px;
+  }
+  100% {
+    background-color: rgb(0, 255, 21);
+     top: 0px;
+     left: 0px;
+     }    
+}
+#div4 {
+    width: 100px;
+    height: 100px;
+    background: rgb(68, 24, 109);
+    animation-name: div4;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    position: relative;   
+}
+@keyframes div4{
+    0% {
+        background-color: red;
+        top: 0px;
+        left: 0px;
+        }
+    50% {
+        background-color: rgb(255, 145, 0);
+        top: 200px;
+        left: 200px
+    }
+    100% {
+        background-color: rgb(255, 145, 0);
+        top: 0px;
+        left: 0px
+    }
+
+}
+#div5 {
+    width: 100px;
+    height: 100px;
+    background: rgb(68, 24, 109);
+    animation-name: div5;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    position: relative;  
+    margin-top: 20px; 
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+}
+@keyframes div5{
+    0% {
+        background-color: red;
+        top: 0px;
+        left: 0px;
+        }
+        25% {
+            background-color: rgb(255, 145, 0);
+            top: 0px;
+            left: 200px;
+            }
+ 50% {
+     background-color: rgb(251, 255, 0);
+      top: 200px;
+     left: 200px;
+     }
+75% {
+ background-color: rgb(0, 255, 21);
+  top: 200px;
+  left: 0px;
+  }
+  100% {
+    background-color: rgb(0, 255, 21);
+     top: 0px;
+     left: 0px;
+     } 
+    }
+    #div6 {
+        width: 100px;
+        height: 100px;
+        background: blueviolet;
+animation:  4s ease 1s infinite alternate;
+    }
+    @keyframes div6{
+        0% {
+            background-color: red;
+            top: 0px;
+            left: 0px;
+            }
+            25% {
+                background-color: rgb(255, 145, 0);
+                top: 0px;
+                left: 200px;
+                }
+     50% {
+         background-color: rgb(251, 255, 0);
+          top: 200px;
+         left: 200px;
+         }
+    75% {
+     background-color: rgb(0, 255, 21);
+      top: 200px;
+      left: 0px;
+      }
+      100% {
+        background-color: rgb(0, 255, 21);
+         top: 0px;
+         left: 0px;
+         }  
+        }

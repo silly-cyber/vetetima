@@ -1,0 +1,20 @@
+#p1::before {
+    content: "initial";
+    color: blueviolet;
+}
+#p2::after {
+    content: "purplely";
+    color: magenta
+}
+#p3 ::first-line {
+    color: lightpink;
+font-variant: small-caps;
+}
+#p3::first-letter{
+    color: blue;
+    font-size: 30px;
+}
+p::selection {
+    color: rgb(165, 116, 211);
+    background: rgb(99, 51, 105);
+}

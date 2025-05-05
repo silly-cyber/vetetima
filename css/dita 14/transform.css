@@ -1,0 +1,92 @@
+#div1 {
+     width: 100px;
+     height: 100px;
+     background: red;
+     color: white;
+     transition: transform 2s;
+
+}
+#div1:hover{
+    width: 300px;
+    height: 300px;
+    background:  #000099;
+    color: red;
+transform: translate(100px, 200px);
+}
+#div2 {
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 94, 0);
+    color: white;
+transition: width 2s, height 2s, transform 1s;
+position: absolute;
+top: 100px;
+left: 150px;
+}
+#div2:hover{
+   width: 300px;
+   height: 300px;
+   background:  #000099;
+   color: red;
+transform: rotate(360deg)
+}
+
+#div3 {
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 174, 0);
+    color: white;
+transition: width 2s, height 2s, transform 1s;
+}
+#div3:hover{
+   /* width: 300px;
+   height: 300px; */
+   background:  #000099;
+   color: red;
+transform: scale(2, 3)
+}
+
+#div4 {
+    width: 100px;
+    height: 100px;
+    background: rgb(72, 255, 0);
+    color: white;
+transition: width 2s, height 2s, transform 1s;
+}
+#div4:hover{
+   width: 300px;
+   height: 300px;
+   background:  #000099;
+   color: red;
+transform: skew(35deg, 35deg)
+}
+
+#div5 {
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 68, 255);
+    color: white;
+transition: width 2s, height 2s, transform 1s;
+}
+#div5:hover{
+   width: 300px;
+   height: 300px;
+   background:  #000099;
+   color: red;
+transform: rotate(360deg)
+}
+
+#div6 {
+    width: 100px;
+    height: 100px;
+    background: rgb(111, 0, 255);
+    color: white;
+transition: width 2s, height 2s, transform 1s;
+}
+#div6:hover{
+   width: 300px;
+   height: 300px;
+   background:  #000099;
+   color: red;
+transform: matrix(5, 0.5, 0.5, 4, 200, 10)
+}
