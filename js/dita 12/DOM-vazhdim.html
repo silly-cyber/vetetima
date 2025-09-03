@@ -1,0 +1,94 @@
+<html>
+    <head>
+    </head>
+    <body>
+       <p>addEventListener()</p>
+      <button id="but1">Kliko</button>
+      
+      <p id="p1">Shkolla Digjitale</p>
+
+      <script>
+        document.getElementById("but1").addEventListenera("click",
+        function()
+            {
+                document.getElementById("p1").innerHTML="Prizren"
+            });
+      </script>
+      <br>
+      <br>
+  	   <button onclick='text()'>Shto element</button>
+
+        <script>
+            function text()
+            {
+                var x = document.createElement('input');
+                document.body.appendChild(x);
+            }
+        </script>
+
+        <br>
+        <br>
+
+        <button onclick='text2()'>Shto paragraf</button>
+        <div id="div1" style="border: 1px solid black;">
+            <p id="p1">paragrafi 1</p>
+            <p id="p2">paragrafi 2</p>
+        </div>
+
+        <script>
+            function text2()
+            {
+                var para = document.createElement("p");
+                var node = document.createTextNode("paragraf i ri")
+                para.appendChild(node)
+
+                document.body.appendChild(para)
+
+                    var element = document.getElementById('div1');
+
+                element.appendChild(para);
+            }
+        </script>
+        
+        <p id="para1">Shkolla</p>
+        <button onclick='fshije()'>Fshije</button>
+        <script>
+            function fshije()
+
+            {
+                var x = document.getElementById('para1');
+                x.remove();
+            
+            }
+        </script>
+        <br>
+        <br>
+
+        <button onclick='fshiElement()'>Fshije1</button>
+        <script>
+            function fshiElement()
+            {
+                var x = document.getElementById('div1');
+                x.removeChild (x.childNodes[0]);
+            }
+        </script>
+
+         <script>
+        var x = 0
+
+        function text3()
+           {
+                x ++
+                 document.getElementById('p3').innerHTML=x;
+
+            }
+
+            function fshiElement1()
+            {
+                x--
+                 document.getElementById('p3').innerHTML=x;
+                
+            }
+        </script>
+    </body>
+</html>   

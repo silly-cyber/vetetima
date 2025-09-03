@@ -1,0 +1,55 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <p id="para">Ky është një tekst i rastësishëm.</p>
+<p id="paral"></p>
+
+<script>
+  // Merr tekstin nga paragrafi me id "para"
+  let teksti = document.getElementById("para").innerText;
+
+  // Shto tekstin e marrë dhe tekstin "URIME" në paragrafi me id "paral"
+  document.getElementById("paral").innerText = teksti + " URIME";
+</script>
+    <br>
+    <br>
+    <h1 id="titulli">Ky është titulli</h1>
+
+<!-- Butoni për të ndryshuar ngjyrën -->
+<button onclick="ndryshoNgjyren()">Ndrysho Ngjyrën</button>
+
+<!-- Butoni për të ndryshuar madhësinë -->
+<button onclick="ndryshoMadhesine()">Ndrysho Madhësinë</button>
+
+<script>
+  // Funksioni që ndryshon ngjyrën e tekstit të <h1>
+  function ndryshoNgjyren() {
+    document.getElementById("titulli").style.color = "red"; // ose ndonjë ngjyrë tjetër
+  }
+
+  // Funksioni që ndryshon madhësinë e shkronjave të <h1>
+  function ndryshoMadhesine() {
+    document.getElementById("titulli").style.fontSize = "45px";
+  }
+</script>
+<br>
+<br>
+<h2>Ndrysho ngjyrën e background-it</h2>
+
+<!-- Butoni për të ndryshuar ngjyrën e background -->
+<button onclick="ndryshoBackground()">Ndrysho Background</button>
+
+<!-- Butoni për ta kthyer ngjyrën në gjendjen fillestare -->
+<button onclick="ktheNeFillim()">Kthe ngjyrën fillestare</button>
+
+<script>
+  // Funksioni që ndryshon ngjyrën e sfondit
+  function ndryshoBackground() {
+    document.body.style.backgroundColor = "#f0b400"; // ose çfarëdo ngjyre tjetër
+  }
+
+  // Funksioni që e kthen ngjyrën në fillestare (zakonisht e bardhë)
+  function ktheNeFillim() {
+    document.body.style.backgroundColor = "white";
+  }
