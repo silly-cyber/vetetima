@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <body style="margin: 20px">
+        <button onclick="document.getElementById('p1').innerHTML= laptop;">sort!</button>
+
+        <p id="p1"></p> 
+        <script>
+            var laptop = ["Dell", "Acer", "HP","Lenovo"];
+            document.getElementById("p1").innerHTML = laptop;
+            document.write(laptop);
+            document.write("<br>");
+            laptop.sort();
+            document.write(laptop);
+        </script>
+        <br>
+        <Br>
+            <button onclick="document.getElementById('p2').innerHTML= laptop;">sort number!</button>
+
+        <p id="p2"></p> 
+
+        <script>
+            var numrat1 = [17,1,9,13,25,6,8];
+            document.getElementById('p2').innerHTML = numrat1
+            numrat1.sort();
+
+        </script>
+        <br>
+        <br>
+        <button onclick="document.getElementById('p3').innerHTML= laptop1;">reverse</button>
+
+        <p id="p3"></p> 
+
+        <script>
+            var laptop1 = [3,4,1,6,4,6,9,1];
+            document.getElementById("p3").innerHTML = laptop1;
+              laptop1.sort();
+              laptop1.reverse();
+        </script>
+<br>
+    <br>
+		<button onclick="sortim()">Sort Numeric</button>
+
+		<p id="p4"></p>
+
+		<script>
+			var numrat = [40, 100, 1, 5, 25, 10];
+			document.getElementById("p4").innerHTML = numrat;  
+
+			function sortim() 
+            {
+                numrat.sort(function(a, b){return a - b});
+                document.getElementById("p4").innerHTML = numrat;
+			}
+		</script>
+
+    </body>
+</html>
